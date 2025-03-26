@@ -97,7 +97,7 @@ public class Player : MonoBehaviour {
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(SceneController.instance.GetSceneState(SceneController.SceneState.gameRunning)) {
 
